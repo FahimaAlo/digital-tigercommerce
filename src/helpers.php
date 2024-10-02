@@ -2,7 +2,7 @@
 if (!function_exists('settings')) {
     function settings()
     {
-       $root = "http://localhost/tigercommerce/"; //http://192.168.54.81/POLY/Batch01/Class20-17-92024Project/tigercommerce/";
+       $root = "http://localhost/digital-tigercommerce/"; //http://192.168.54.81/POLY/Batch01/Class20-17-92024Project/tigercommerce/";
         return [
             'root'  => $root,
             'companyname'=> 'Gold Digger Enterprise',
@@ -14,7 +14,7 @@ if (!function_exists('settings')) {
             'user'=> 'root',
             'password'=> '',
             'database'=> 'tigercommerce',
-            'uploadpath' => 'C:\xampp\htdocs\tigercommerce\uploads\vendor\products',
+            'uploadpath' => 'C:\xampp\htdocs\digital-tigercommerce\uploads\vendor\products',
         ];
     }
 }
